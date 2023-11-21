@@ -1,0 +1,109 @@
+NOTES:Get started with javascript
+
+
+To print in javascript we use console.log.We also console.log to test our code.
+
+Variables are containers that store information for later use.
+Example: Let test;
+
+ we will get undefined as the output if we don't assign a value to a variable.
+
+We can  assign a  value to a variable using "=" (assignment operator)
+
+There are diffferent ways to declare and assign a variable in javascript.
+
+------------  example 1: let test;
+test=1;
+console.log(test);
+
+-----------example 2 : let test =1;
+console.log(test);
+
+
+Create variables with const
+
+The different  between  variables and const is that you can not assign a new value to a variable that was created with const.
+
+Also you can not declare a  const variable without assigning a value to it directly.
+
+Why to use const instead of let ?
+
+It is considered  good practice  to use const for variables whose value will never change.
+Example: const pi =3.14159;
+
+
+
+BOOLEANS
+
+Booleans can only have two values: True or false
+We use booleans to assign non-numeric values to a variable.
+Sometimes we can work on numbers in a boolean context.Every single value in Javascript can be transformed to a boolean value. 
+
+Example: console.log(Boolean(100));
+ Output: true
+Example: console.log(Boolean(0));
+ Output: false
+Example: Const price = 10;
+console.log(boolean(price));
+ouutput:True;
+
+Example: let price ;
+console.log(boolean(price));
+ouutput: False;
+
+
+!!!!!!!! We can use let two times.
+
+If you attempt to redeclare a variable using let within the same scope, you'll encounter an error.
+ example: let num=2; let num=4; console.log(num)  -------- displays an error
+ Do like this : let num=2; num=4; console.log(num)
+ example: var  num=2; var  num=4; console.log(num)  ------- no error 
+
+
+
+OPERATORS:
+
+Equal operator (==): Checks if the values are equal.
+Comparison operator always return  a boolean value(Tru or False)
+
+Example: const priceOne = 10;
+const priceTwo = 10;
+console.log(priceOne == priceTwo);
+output: True
+
+Not equal Operator(!=) : Checks if the values are not equal
+Greater than (>)
+Less than(<)
+greater than or equal(>=)
+less than or equal (<=)
+
+
+STRINGS
+const num =1 ;
+console.log(typeof num);
+
+we use typeof to see type of value  the variables store.
+
+How to add space in the output: 
+
+const textOne = 'Hello';
+const textTwo = 'World';
+const combined = textOne + ' ' + textTwo;
+console.log(combined);
+
+ we add the +'   '+ 
+
+
+Conditions in javascript
+
+
+
+
+
+
+
+
+
+
+
+
