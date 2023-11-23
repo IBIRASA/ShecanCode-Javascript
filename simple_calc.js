@@ -1,0 +1,13 @@
+let num1,num2,num3,addition, substraction, multiplication , division ,modulus;
+num1 = 20;
+num2 = 40;
+num3 = 50;
+addition = num1 + num2 + num3;
+substraction = num1 - num2 - num3;
+multiplication = num1 * num2 * num3;
+division = num1 / num2 / num3;
+console.log("Here are 3 numbers:\n" + num1 + "\n" +num2 + "\n" +num3);
+console.log("Addition of the 3 numbers \n" + addition);
+console.log( "Substraction of the 3 numbers\n" + substraction);
+console.log( "multiplication of the 3 numbers\n" + multiplication);
+console.log( "Divison of the 3 numbers\n" + division);
