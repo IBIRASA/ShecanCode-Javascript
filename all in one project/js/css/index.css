@@ -1,0 +1,404 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.navbar
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-top: 2px solid #878383;
+    height: 13vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+   
+}
+ 
+/*---------------------------------------------------------------Colors----------------------------------------------------------------*/
+.red
+{
+    background-color: #8B0000;
+}
+.dark_red
+{
+    background-color:#660000;
+}
+.white_red
+{
+    background-color: #e23232;
+}
+.white-bg
+{
+    background-color: #f5f0f0;
+}
+/*------------------------------------------------------------Font-colors---------------------------------------------------------------*/
+.text_red
+{
+color:#660000;
+}
+.text_dark_red
+{
+    color: #8B0000;
+}
+.text_white_red
+{
+    color: #e23232;
+}
+.text_grey
+{
+    color: #A0A0A0;
+}
+.text_white_grey
+{
+    color: 	#bab8b8;
+}
+.text_white
+{
+    color: #fefafa;
+}
+
+.about-div
+{
+    width: 290px;
+    height: 325px;
+    margin: 150px 0px;
+    background-color: rgba(93, 13, 13, 0.7);
+}
+.img-about
+{
+    width: 290px;
+    height: 325px;
+    margin: 85px 50px;
+}
+.overlay-2
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 290px;
+    height: 325px !important;
+    background-color: rgba(10, 10, 10, 0.6);
+    z-index: 0;
+    margin: 85px 50px;
+}
+/*---------------------------------------------------------------Font_size---------------------------------------------------------------*/
+.big_text
+{
+    font-size: 55px;
+}
+.large_text
+{
+    font-size: 40px;
+}
+.medium_text
+{
+    font-size: 30px;
+}
+.small_text
+{
+    font-size: 20px;
+}
+.smallest_text
+{
+    font-size: 17px;
+}
+/*---------------------------------------------------------------Button-------------------------------------------------------------------*/
+
+.border_radius
+{
+    border-radius: 28px;
+}
+.border_radius
+{
+
+}
+.C-button
+{
+    padding: 6px 35px;
+    border: 3px solid #b3b2b2;
+}
+.E-button
+{
+    padding: 6px 35px;
+    border: 1px solid #540a0a;
+}
+
+/*---------------------------------------------------------------Font-------------------------------------------------------------------*/
+.Font-bold
+{
+    font-style: bold;
+}
+/*---------------------------------------------------------------Header section----------------------------------------------------------*/
+.Home_section
+{
+    height: 100%;
+}
+/*---------------------------------------------------------------About-section------------------------------------------------------------*/
+.About_section
+{
+    height: 87vh;
+    padding: 10px 140px;
+}
+/*---------------------------------------------------------------Experience_section-------------------------------------------------------*/
+.Experience_section
+{
+    height: 100vh;
+    padding: 10px 120px;
+    background-color: #660000;
+    
+}
+.experince_content
+{
+    text-align: center;
+    padding-top: 85px;
+ 
+}
+.experience-box
+{
+    margin-top: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 0px 95px;
+   
+}
+.text-align-left
+{
+    text-align: left;
+}
+.Years_of_experience
+{
+    border: 2px solid rgb(242, 240, 240);
+    width: 22.5%;  
+    height: 360px;
+    border-style: dotted;
+    padding: 20px 57px;
+    position: absolute;
+
+
+}
+.Projects
+{
+    position: absolute;
+    border: 2px solid rgb(242, 240, 240);
+    width: 22.5%;  
+    height: 360px;
+    border-style: dotted;
+    margin-left: 20%;
+    margin-top: 10%;
+    z-index: 2;
+    padding: 20px 57px;
+    background-color: #660000;
+}
+.Certificates
+{
+    position: absolute;
+    border: 2px solid rgb(242, 240, 240);
+    width: 22.5%;  
+    height: 360px;
+    border-style: dotted;
+    padding: 20px 57px;
+    margin-left: 40%;
+
+    z-index: 1 ;
+}
+.Year_in_university
+{
+    position: absolute;
+    border: 2px solid rgb(242, 240, 240);
+    width: 22.5%;  
+    height: 360px;
+    border-style: dotted;
+    margin-left: 60%;
+    margin-top: 10%;
+    background-color: #660000;
+    padding: 0px 57px;
+    z-index: 3;
+}
+/*---------------------------------------------------------------Contact_Us-section--------------------------------------------------------*/
+.contact_content
+{
+    height: 75vh;
+    padding: 70px 145px;
+    display: flex;
+    justify-content: space-between;
+    
+
+
+}
+.address-contact
+{
+    padding-top: 90px;
+}
+.contact-us
+{
+    padding-top: 90px;
+    
+}
+input
+{
+    border: none;
+    border-bottom: 2px solid #870808;
+    width: 400px;
+    padding: 22px;
+    padding-top: 13%;
+    padding-left: 0px;
+}
+.address-i
+{
+    display: flex;
+    justify-content: inherit;
+    align-items: center;
+    
+
+}
+.address-p
+{
+    margin-top: 6%;
+    margin-left: 6%;
+}
+/*---------------------------------------------------------------Footer-section------------------------------------------------------------*/
+.Footer_section
+{
+    height: 9vh;
+    background-color: #660000;
+}
+.footer-content
+{
+    color: grey;
+    padding-top:2%;
+}
+/*--------------------------------------------------------------------Images---------------------------------------------------------------*/
+
+.underline
+{
+    width: 100px;
+    border: 1px solid #430101;
+    margin-left:2%;
+}
+.underline-experience
+{
+    width: 100px;
+    border: 2px solid #fffefe;
+    margin-left:2%;
+ 
+}
+.underline-experience-box
+{
+    width: 100px;
+    border: 1px solid #ffffff;
+    margin-left:2%;
+    margin-top: 0;
+}
+.main-image
+{
+   background-image: url("my_image.jpg");
+   height: 100vh;
+   width: 100%;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+li a:hover{
+    color: rgb(106, 105, 105);
+    font-size: 18px;
+    transition: 0.5s ease-in-out;
+    
+}
+.overlay
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    height: 100% !important;
+    background-color: rgba(10, 10, 10, 0.8);
+    z-index: 0;
+   
+}
+
+
+.my-logo
+{
+    padding: 1px 140px;
+   
+}
+.navbar-a
+{
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+ul
+{
+    padding: 22px 180px;
+}
+ul li
+{
+    display: inline;
+    list-style-type: none;
+    margin-left: 40px;
+}
+.Image-content
+{
+
+   padding: 12% 8%;
+   position: relative;
+    z-index: 1;
+}
+
+p{
+
+    margin-top: 0;
+    margin-bottom: 0rem;
+  
+}
+.animate__fadeInUp
+{
+    animation-delay: 0.5s;
+}
+.p-developer{
+    animation-delay: 1s;
+}
+.animate__zoomIn
+{
+    animation-delay: 1.5s;
+}
+.home
+{
+    animation-delay: 0.5s;
+}
+.about
+{
+    animation-delay: 1s;
+}
+.experience
+{
+    animation-delay: 1.5s;
+}
+.cv
+{
+    animation-delay: 2s;
+}
+.content-about
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-content
+{
+    text-align: left;
+    padding: 10px 20px 10px 330px;
+    height: 330px;
+    margin: 85px 50px;
+}
+
+.ml-2
+{
+    margin-left: 2%;
+}
